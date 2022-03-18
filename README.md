@@ -35,3 +35,8 @@ The course is made up of 7 weeks:
 
  source $HOME/hrwros_ws/devel/setup.bash
  ```
+ 
+ * Week 1 
+ ```
+ roslaunch hrwros_week1 hrwros_welcome.launch
+ ```
