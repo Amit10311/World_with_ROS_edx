@@ -25,3 +25,13 @@ The course is made up of 7 weeks:
 
 * **Week 6: Final Project**
   * ROS file system, basic concepts of behavior design with state machines, build a production line application with two industrial robot arms and a mobile robot.
+  
+  
+```
+ source /opt/ros/noetic/setup.bash
+ cd  $HOME/hrwros_ws/hrwros_ws
+
+ catkin build
+
+ source $HOME/hrwros_ws/devel/setup.bash
+ ```
