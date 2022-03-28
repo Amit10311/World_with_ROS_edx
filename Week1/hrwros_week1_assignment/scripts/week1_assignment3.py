@@ -41,8 +41,8 @@ class CounterWithDelayActionClass(object):
         #  Assignment 3 - Part3                                             #
         #  modify counter delay using "counter_delay" a private parameter.  #
 
-        if rospy.has_param("counter_delay"):
-            counter_delay_value = rospy.get_param("counter_delay")
+        if rospy.has_param("~counter_delay"):
+            counter_delay_value = rospy.get_param("~counter_delay")
             rospy.loginfo("Parameter found on the parameter server "
                           " Using %.1fs for counter delay." %
                           (counter_delay_value))
