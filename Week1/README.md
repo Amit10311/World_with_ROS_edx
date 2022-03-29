@@ -60,10 +60,11 @@
   $ rosservice call <service_name> <arguments_req>
  ```
  
- `float64 distance_metres      # Request message `
- ` ---                         # Demarcation `
- ` float64 distance_feet       # Response message `
-
+ ```
+ float64 distance_metres      # Request message 
+  ---                         # Demarcation 
+ float64 distance_feet       # Response message 
+```
 ## 4.1  Custom Service  
 ```
   $ rossrv show hrwros_msgs/ConvertMetresToFeet
