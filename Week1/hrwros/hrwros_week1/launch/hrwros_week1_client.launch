@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+  <!-- Argument to the launch file.-->
+
+  <!-- Start the metres_to_feet service client node.-->
+  <node name="metres_to_feet" pkg="hrwros_week1" type="metres_to_feet_client.py"
+    output="screen"/>
+
+  <!-- Start the counter with delay action server node /-->
+  <node name="counter_with_delay_ac" pkg="hrwros_week1" type="counter_with_delay_ac.py"
+    output="screen">   
+  </node>
+
+</launch>
+

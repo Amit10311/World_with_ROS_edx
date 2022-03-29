@@ -1,0 +1,15 @@
+<?xml version="1.0"?>
+<launch>
+
+  <!-- Start the template publisher ROS node.-->
+  <node name="sensor_info_publisher" pkg="hrwros_week1" type="sensor_info_publisher.py"
+    output="screen"/>
+
+  <node name="compute_box_height" pkg="hrwros_week1_assignment" type="week1_assignment1_part3.py"
+    output="screen"/>
+
+  <node name="metres_to_feet" pkg="hrwros_week1" type="metres_to_feet_server.py"
+    output="screen"/>
+    
+</launch>
+
