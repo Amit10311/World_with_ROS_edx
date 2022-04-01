@@ -38,9 +38,8 @@
  * $ rosrun xacro xacro /path/to/robot_name.xacro > robot_name.urdf
 
  * $ check_urdf robot_name.urdf
-```
+ ```
 -------------------------------------------------------------------------
-
 # 2.2 Changing Worlds
 ```
  * roslaunch hrwros_support visualize_hrwros.launch 
