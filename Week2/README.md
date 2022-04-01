@@ -1,7 +1,6 @@
-# urdf_tutorial
+# 1. urdf_tutorial
 
  * Link : https://github.com/ros/urdf_tutorial/tree/master 
-
  * See the tutorials over at http://wiki.ros.org/urdf_tutorial 
 
 # 2. Intrduction to URDF
@@ -29,14 +28,12 @@
     - Angles: radians
 
 ## 2.1.2 Visual Robot Model with URDF
-
 ```
   $ roslaunch urdf_tutorial display.launch model:=urdf/01-myfirst.urdf
 
   $ roslaunch urdf_tutorial display.launch model:='$(find urdf_tutorial)/urdf/01-myfirst.urdf'
 ```
 ## 2.1.3 Checking for Correctness
-
 ```
  * $ rosrun xacro xacro /path/to/robot_name.xacro > robot_name.urdf
 
@@ -45,7 +42,6 @@
 -------------------------------------------------------------------------
 
 # 2.2 Changing Worlds
-
 ```
  * roslaunch hrwros_support visualize_hrwros.launch 
 ```
