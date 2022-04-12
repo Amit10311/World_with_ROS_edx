@@ -1,12 +1,12 @@
 
 
-### 3. Introduction to autonomous navigation
+### 3.1 Introduction to autonomous navigation
 ```
   rosrun rqt_robot_steering rqt_robot_steering
   - INPUT 
   /cmd_vel_mux/input/teleop
 ```
-#### 1. Hands-on practice Part 1: Services
+#### 3.1.1 Hands-on practice Part 1: Services
 ```
   $ roslaunch turtlebot_gazebo turtlebot_world.launch
   $ rosservice call gazebo/get_model_state '{model_name: mobile_base}'
@@ -14,7 +14,7 @@
 ```
   $ roslaunch turtlebot_rviz_launchers view_robot.launch
 ```
-#### 2.  Hands-on practice Part 2 : Nodes and Topics
+#### 3.1.2  Hands-on practice Part 2 : Nodes and Topics
 ```
   $ rosnode info /cmd_vel_mux
 ```
@@ -22,7 +22,7 @@
   $ roslaunch turtlebot_teleop keyboard_teleop.launch
   $ rosnode info /turtlebot_teleop_keyboard 
 ```
-##### 2.1 Odometry
+##### 3.1.2.1 Odometry
 ```
   $ rostopic  echo /odom -n1
   $ rostopic  echo /odom/pose -n1
