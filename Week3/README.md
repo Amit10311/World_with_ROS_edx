@@ -77,3 +77,20 @@
     Add path with name Global Plan and add  /move_base/DWAPlannerROS/global_plan  
     Add path with name Local  Plan add add  /move_base/DWAPlannerROS/local_plan   
  ```
+### **LEARNING Platforms**
+
+
+1. Simulation which will get you started with the TurteBot3 in Gazebo
+
+ * https://emanual.robotis.com/docs/en/platform/turtlebot3/simulation/#simulation
+
+
+2.  Autonomous driving where you will have racing tutorials.
+ * https://emanual.robotis.com/docs/en/platform/turtlebot3/autonomous_driving/#autonomous-driving
+
+3. Videos to get you inspired by project other did
+ * https://emanual.robotis.com/docs/en/platform/turtlebot3/videos/#videos
+
+
+4. Machine learning
+  * https://emanual.robotis.com/docs/en/platform/turtlebot3/machine_learning/#machine-learning
