@@ -1,7 +1,7 @@
-# World_with_ROS_edx
+## World_with_ROS_edx
 Hello (Real) World with ROS – Robot Operating System from Edx
 
-# **Course outline**
+## **Course outline**
 
 The course is made up of 7 weeks:
 
