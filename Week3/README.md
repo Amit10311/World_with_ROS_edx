@@ -71,6 +71,7 @@
 ```
   $ roslaunch turtlebot_gazebo amcl_demo.launch
  ```
+ ```
   $ roslaunch turtlebot_rviz_launchers view_navigation.launch
     Add path with name Full   Path and add  /move_base/NavfnROS/plan              
     Add path with name Global Plan and add  /move_base/DWAPlannerROS/global_plan  
