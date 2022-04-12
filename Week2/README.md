@@ -3,6 +3,8 @@
  * Link : https://github.com/ros/urdf_tutorial/tree/master 
  * See the tutorials over at http://wiki.ros.org/urdf_tutorial 
 
+-----------------------------------------------------------------------------
+
 ### 2. Intrduction to URDF
 
 ```
