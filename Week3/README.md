@@ -93,3 +93,9 @@
 
 4. Machine learning
 > * https://emanual.robotis.com/docs/en/platform/turtlebot3/machine_learning/#machine-learning
+
+ ```
+ <!-- Create Turtlebot Target on map -->
+  <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_target1" args="0.13 1.44 0 0 0 0 1  map turtlebot_target1"/>
+  <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_target2" args="-8.1 -1.43 0 0 0 0 1  map turtlebot_target2"/>
+ ```
