@@ -32,7 +32,7 @@
 
  * Start the command line tool to send motion commands to the robot.
 ```
-  $ rosrun hrwros_week4 hrwros_moveit_commander_cmdline.py 
+  $ rosrun hrwros_week4 hrwros_moveit_commander_cmdline
 ```
 
  **MoveIt commander commands** 
