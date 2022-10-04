@@ -99,6 +99,6 @@
   <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_target1" args="0.13 1.44 0 0 0 0 1  map turtlebot_target1"/>
   <node pkg="tf2_ros" type="static_transform_publisher" name="map_to_target2" args="-8.1 -1.43 0 0 0 0 1  map turtlebot_target2"/>
  ```
- 5. To change the Global Planner 
- 
- * http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS
+
+5. To change the Global Planner 
+ > * http://wiki.ros.org/navigation/Tutorials/Writing%20A%20Global%20Path%20Planner%20As%20Plugin%20in%20ROS
